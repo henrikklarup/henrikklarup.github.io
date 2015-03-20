@@ -1,0 +1,21 @@
+# General
+name: Henrik Klarup
+info: Stud.Polyt. Software Engineering Aalborg University &nbsp;•&nbsp; CTO macellum.dk
+description: "Tech, software and other computer related stuff"
+url: http://localhost:4000
+
+markdown: redcarpet
+highlighter: pygments
+
+paginate: 5
+permalink: /:title
+
+# Social share and comments.
+disqus-id: henrikklarup
+twitter: henrikklarup
+github: henrikklarup
+google: +henrikklarup
+
+# RSS feed
+rss-feed-limit: 10
+rss-show-full: "no"
