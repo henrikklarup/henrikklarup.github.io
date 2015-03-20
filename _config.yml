@@ -2,7 +2,7 @@
 name: Henrik Klarup
 info: Stud.Polyt. Software Engineering Aalborg University &nbsp;•&nbsp; CTO macellum.dk
 description: "Tech, software and other computer related stuff"
-url: http://localhost:4000
+url: _blank
 
 markdown: redcarpet
 highlighter: pygments
