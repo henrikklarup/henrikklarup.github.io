@@ -1,30 +1,49 @@
----
-layout: default
----
- <meta name="google-site-verification"
-             content="<meta name="google-site-verification" content="sQqECN23GTeTPm6ARLSLGWS4sradLcOCZxdFMqdYdJk" />" />
-<section class="main-content">
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Henrik Klarup</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+			<link rel="stylesheet" href="css/style-noscript.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
-    {% for post in paginator.posts %}
-        <article class="module color-3">
-                <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-                <span class="category">{{ post.categories }}</span>
-                <p>{{ post.excerpt | strip_html | truncate: 250 }}</p>
-        </article>
-    {% endfor %}
+				<!-- Header -->
+					<header id="header">
+						<h1>Henrik Klarup</h1>
+						<p>Stud.Polyt. Software Engineering Aalborg University &nbsp;&bull;&nbsp; CTO macellum.dk</p>
+						<nav>
+							<ul>
+								<li><a href="https://twitter.com/HenrikKlarup" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/henrikklarup" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="http://dk.linkedin.com/in/henrikklarup" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+								<li><a href="https://github.com/henrikklarup" class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="mailto:henrikklarup@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
 
-    <div class="module pagination color-3">
-        {% if paginator.previous_page %}
-            <a href="{{ site.url }}{{ paginator.previous_page_path }}" class="previous">Previous</a>
-        {% endif %}
-
-        <span class="page_number">&mdash; {{ paginator.page }} of {{ paginator.total_pages }} &mdash;</span>
-
-        {% if paginator.next_page %}
-            <a href="{{ site.url }}{{ paginator.next_page_path }}" class="next">Next</a>
-        {% endif %}
-    </div>
-
-</section>
-
-
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Henrik Klarup</a>.</span>
+					</footer>
+				
+			</div>
+		</div>
+	</body>
+</html>
